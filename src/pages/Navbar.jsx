@@ -10,7 +10,7 @@ function Navbar() {
   const [flag,setFlag] =useState(true)
   return (
     <>
-    <div className="flex bg-teal-500 text-white p-2 fixed w-full ">
+    <div className="flex bg-teal-500 text-white p-3 fixed top-0 left-0 right-0 w-full md:[] ">
      <Link to="/home" className=" pl-20">
      <button className="text-5xl font-serif " onClick={() =>{
       homeRef.current.scrollIntoView({
